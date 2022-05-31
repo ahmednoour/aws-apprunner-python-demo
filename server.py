@@ -5,7 +5,7 @@ PORT = 8000
 name = os.environ.get('NAME')
 if name == None or len(name) == 0:
   name = ""
-MESSAGE = "Al Ahly w Real Madrid 11 w 14, " + name + "!"
+MESSAGE = "Welcome in AWS AppRunner, " + name + "!"
 print("Message: '" + MESSAGE + "'")
 
 app = Flask(__name__)
